@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*
 ! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
@@ -24,7 +24,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -46,9 +46,10 @@ html,
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -91,7 +92,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -137,7 +138,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -236,9 +238,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -285,7 +287,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -378,7 +380,8 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -446,7 +449,9 @@ video {
   display: none;
 }
 
-*, ::before, ::after{
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -496,7 +501,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop{
+::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -546,320 +551,322 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute{
+.absolute {
   position: absolute;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
-.-bottom-\[30px\]{
+.-bottom-\[30px\] {
   bottom: -30px;
 }
 
-.-top-60{
+.-top-60 {
   top: -15rem;
 }
 
-.left-2{
+.left-2 {
   left: 0.5rem;
 }
 
-.left-\[29px\]{
+.left-\[29px\] {
   left: 29px;
 }
 
-.right-4{
+.right-4 {
   right: 1rem;
 }
 
-.top-0{
+.top-0 {
   top: 0px;
 }
 
-.top-2{
+.top-2 {
   top: 0.5rem;
 }
 
-.top-\[29px\]{
+.top-\[29px\] {
   top: 29px;
 }
 
-.-top-96{
+.-top-96 {
   top: -24rem;
 }
 
-.z-50{
+.z-50 {
   z-index: 50;
 }
 
-.mb-\[3px\]{
+.mb-\[3px\] {
   margin-bottom: 3px;
 }
 
-.block{
+.block {
   display: block;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.h-24{
+.h-24 {
   height: 6rem;
 }
 
-.h-\[60px\]{
+.h-\[60px\] {
   height: 60px;
 }
 
-.h-\[70px\]{
+.h-\[70px\] {
   height: 70px;
 }
 
-.h-\[9px\]{
+.h-\[9px\] {
   height: 9px;
 }
 
-.w-\[60px\]{
+.w-\[60px\] {
   width: 60px;
 }
 
-.w-\[70px\]{
+.w-\[70px\] {
   width: 70px;
 }
 
-.w-\[9px\]{
+.w-\[9px\] {
   width: 9px;
 }
 
-.w-full{
+.w-full {
   width: 100%;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
 
-.items-center{
+.items-center {
   align-items: center;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.justify-between{
+.justify-between {
   justify-content: space-between;
 }
 
-.rounded-full{
+.rounded-full {
   border-radius: 9999px;
 }
 
-.border-\[5px\]{
+.border-\[5px\] {
   border-width: 5px;
 }
 
-.border-white{
+.border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-\[\#093E8A\]{
+.bg-\[\#093E8A\] {
   --tw-bg-opacity: 1;
   background-color: rgb(9 62 138 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#189821\]{
+.bg-\[\#189821\] {
   --tw-bg-opacity: 1;
   background-color: rgb(24 152 33 / var(--tw-bg-opacity));
 }
 
-.bg-\[rgba\(0\2c 0\2c 0\2c \.75\)\]{
-  background-color: rgba(0,0,0,.75);
+.bg-\[rgba\(0\2c 0\2c 0\2c \.75\)\] {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
-.bg-slate-900{
+.bg-slate-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-.bg-white{
+.bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-4{
+.p-4 {
   padding: 1rem;
 }
 
-.px-\[25px\]{
+.px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
 }
 
-.py-\[14px\]{
+.py-\[14px\] {
   padding-top: 14px;
   padding-bottom: 14px;
 }
 
-.py-\[32px\]{
+.py-\[32px\] {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.pb-3{
+.pb-3 {
   padding-bottom: 0.75rem;
 }
 
-.ps-\[114px\]{
+.ps-\[114px\] {
   padding-inline-start: 114px;
 }
 
-.font-OpenSans{
-  font-family: Open Sans, sans-serif;
+.font-OpenSans {
+  font-family:
+    Open Sans,
+    sans-serif;
 }
 
-.text-9xl{
+.text-9xl {
   font-size: 8rem;
   line-height: 1;
 }
 
-.text-\[10px\]{
+.text-\[10px\] {
   font-size: 10px;
 }
 
-.text-\[23px\]{
+.text-\[23px\] {
   font-size: 23px;
 }
 
-.text-\[25px\]{
+.text-\[25px\] {
   font-size: 25px;
 }
 
-.text-\[30px\]{
+.text-\[30px\] {
   font-size: 30px;
 }
 
-.text-xl{
+.text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.font-bold{
+.font-bold {
   font-weight: 700;
 }
 
-.font-extralight{
+.font-extralight {
   font-weight: 200;
 }
 
-.leading-7{
+.leading-7 {
   line-height: 1.75rem;
 }
 
-.text-white{
+.text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition-all{
+.transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.duration-1000{
+.duration-1000 {
   transition-duration: 1000ms;
 }
 
-.ease-linear{
+.ease-linear {
   transition-timing-function: linear;
 }
 
-.before\:absolute::before{
+.before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
 }
 
-.before\:-left-3::before{
+.before\:-left-3::before {
   content: var(--tw-content);
   left: -0.75rem;
 }
 
-.before\:top-0::before{
+.before\:top-0::before {
   content: var(--tw-content);
   top: 0px;
 }
 
-.before\:h-\[9px\]::before{
+.before\:h-\[9px\]::before {
   content: var(--tw-content);
   height: 9px;
 }
 
-.before\:w-\[9px\]::before{
+.before\:w-\[9px\]::before {
   content: var(--tw-content);
   width: 9px;
 }
 
-.before\:rounded-full::before{
+.before\:rounded-full::before {
   content: var(--tw-content);
   border-radius: 9999px;
 }
 
-.before\:bg-white::before{
+.before\:bg-white::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.after\:absolute::after{
+.after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
 }
 
-.after\:-right-3::after{
+.after\:-right-3::after {
   content: var(--tw-content);
   right: -0.75rem;
 }
 
-.after\:top-0::after{
+.after\:top-0::after {
   content: var(--tw-content);
   top: 0px;
 }
 
-.after\:h-\[9px\]::after{
+.after\:h-\[9px\]::after {
   content: var(--tw-content);
   height: 9px;
 }
 
-.after\:w-\[9px\]::after{
+.after\:w-\[9px\]::after {
   content: var(--tw-content);
   width: 9px;
 }
 
-.after\:rounded-full::after{
+.after\:rounded-full::after {
   content: var(--tw-content);
   border-radius: 9999px;
 }
 
-.after\:bg-\[\#189821\]::after{
+.after\:bg-\[\#189821\]::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(24 152 33 / var(--tw-bg-opacity));
 }
 
-.after\:bg-white::after{
+.after\:bg-white::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));

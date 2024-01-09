@@ -4,10 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'OpenSans': ['Open Sans', 'sans-serif'],
+        OpenSans: ["Open Sans", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
-
+};
